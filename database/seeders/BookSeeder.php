@@ -20,43 +20,43 @@ class BookSeeder extends Seeder
 
         Book::create([
             'category_id' => $pemrograman->id,
-            'title' => 'Belajar PHP dari Nol',
-            'author_name' => 'Ni Made Ayu Kartika',
+            'title' => 'Belajar Java 90 Hari',
+            'author_name' => 'B',
             'price' => 85000,
         ]);
 
         Book::create([
             'category_id' => $pemrograman->id,
-            'title' => 'Dasar Pemrograman Berorientasi Objek',
-            'author_name' => 'I Wayan Sudiarta',
+            'title' => 'Fundamental Pemrogramman',
+            'author_name' => 'B',
             'price' => 72000,
         ]);
 
         Book::create([
             'category_id' => $novel->id,
-            'title' => 'Senja di Pelabuhan Kecil',
-            'author_name' => 'Made Dwijendra',
+            'title' => 'despite everything, it-s still you',
+            'author_name' => 'B',
             'price' => 68000,
         ]);
 
         Book::create([
             'category_id' => $novel->id,
-            'title' => 'Jalan Pulang ke Desa',
-            'author_name' => 'Ni Luh Putu Sari',
+            'title' => 'do people really can change',
+            'author_name' => 'B',
             'price' => 64000,
         ]);
 
         Book::create([
             'category_id' => $bisnis->id,
-            'title' => 'Strategi Keuangan untuk Pemula',
-            'author_name' => 'Ida Bagus Mantra',
+            'title' => 'big money never comes clean',
+            'author_name' => 'B',
             'price' => 110000,
         ]);
 
         Book::create([
             'category_id' => $bisnis->id,
-            'title' => 'Membaca Laporan Keuangan Sederhana',
-            'author_name' => 'Putu Gede Ardika',
+            'title' => 'we never lack of money but souls',
+            'author_name' => 'B',
             'price' => 98000,
         ]);
     }

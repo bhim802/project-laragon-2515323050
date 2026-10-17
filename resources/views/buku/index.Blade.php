@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{-- resources/views/buku/index.blade.php (contoh lengkap) --}}
 @extends('layouts.app')
 
@@ -23,3 +24,12 @@
     @endforeach
 </div>
 @endsection
+=======
+{{-- resources/views/buku/index.blade.php (contoh) --}}
+<h1>Daftar Buku</h1>
+<ul>
+    @foreach ($daftarBuku as $id => $buku)
+        <li><a href="/buku/{{ $id }}">{{ $buku['judul'] }}</a></li>
+    @endforeach
+</ul>
+>>>>>>> be620a81b4bef1e0d8c162ba9d381f12dd90e231
