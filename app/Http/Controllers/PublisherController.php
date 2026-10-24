@@ -102,7 +102,7 @@ class PublisherController extends Controller
             }
 
             return redirect()->route('penerbit.index')
-                ->with('error', 'Penerbit "' . $penerbit->name . '" tidak bisa dihapus karena masih dipakai.');
+                ->with('error', 'Penerbit "' . $penerbit->name . '" tidak bisa dihapus karena masih dipakai oleh buku.');
         }
 
         return redirect()->route('penerbit.index')
